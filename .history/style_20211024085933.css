@@ -93,13 +93,8 @@ section{
 section article{
     background: rgb(161, 161, 161);
     text-align: center;
-    width: 49%;
+    width: 50%;
     border-radius: 20px 20px 0 0;
-    margin-bottom: 10px;
-}
-
-section article:nth-child(2n+1){
-    margin-right: 10px;
 }
 
 section h5{
@@ -116,7 +111,7 @@ article img{
 form{
     background: #b2b2b2;
     border-radius: 20px 20px 0 0;
-    margin-bottom: 18px;
+    margin-bottom: 15px;
 }
 
 form p{
@@ -160,9 +155,13 @@ form input[type="submit"]{
     color: rgb(161, 161, 161);
     list-style: none;
     font-size: 18px;
-    padding: 6px 0 5px 0;
+    padding: 5px 0 3px 0;
+}
+
+.bancoweb .lineaweb{
     border-bottom: blanchedalmond solid 1px;
 }
+
 
 article p{
     color: rgb(161, 161, 161);

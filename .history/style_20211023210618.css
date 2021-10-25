@@ -73,73 +73,41 @@ main{
 
 aside{
     width: 30%;
-    margin: 15px 15px 0 0;
-        
-}
-
-aside div{
-    text-align: center;
+    
 }
 
 section{
     width: 70%;
-    margin-top: 15px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    
 }
 
 section article{
     background: rgb(161, 161, 161);
     text-align: center;
-    width: 49%;
-    border-radius: 20px 20px 0 0;
-    margin-bottom: 10px;
-}
-
-section article:nth-child(2n+1){
-    margin-right: 10px;
+    width: 50%;
+    
 }
 
 section h5{
     text-align: justify;
-    padding: 0 15px 15px 15px;
 }
 
-article img{
-    width: 200px;
-    height: 150px;
-    padding: 15px 0;
+section div{
+    width: 20%;
 }
 
 form{
     background: #b2b2b2;
-    border-radius: 20px 20px 0 0;
-    margin-bottom: 18px;
 }
 
 form p{
     background: #3a3939;
-    font-weight: bold;
-    font-size: 25px;
-    color: rgb(196, 190, 190);
-    padding: 10px 0;
-    border-radius: 20px 20px 0 0;
-}
-
-form input{
-    margin: 10px 0;
-}
-
-form label{
-    font-size: 20px;
 }
 
 form input[type="submit"]{
     background:#ffbd16 ;
-    font-size: 20px;
-    padding: 5px 15px;
 }
 
 .bancoweb p{
@@ -147,9 +115,6 @@ form input[type="submit"]{
     font-weight: bold;
     font-style: italic;
     background: black;
-    font-size: 20px;
-    padding: 10px 0;
-    
 }
 
 .bancoweb ul{
@@ -159,27 +124,19 @@ form input[type="submit"]{
 .bancoweb li{
     color: rgb(161, 161, 161);
     list-style: none;
-    font-size: 18px;
-    padding: 6px 0 5px 0;
-    border-bottom: blanchedalmond solid 1px;
 }
+
+
 
 article p{
     color: rgb(161, 161, 161);
     background: black;
     font-weight: bold;
-    font-size: 20px;
-    padding: 10px 0;
-    border-radius: 20px 20px 0 0;
 }
 
+
 footer{
-    text-align: center;
     background: #3a3939;
-    color: rgb(161, 161, 161) ;
-    font-weight: bold;
-    padding: 20px 0;
-    margin-top: 15px;
 }
 
 

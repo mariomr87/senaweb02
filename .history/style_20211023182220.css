@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background:#b2b2b2;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.header-sec1{
+    width: 60%;
+    text-align: center;
+}
+
+.header-sec1 h1{
+    font-size: 80px;
+    -webkit-text-stroke: rgb(214, 214, 214);
+    color: transparent;
+}
+
+.header-sec1 h2{
+    font-size: 35px;
+}
+
+.header-sec2{
+    width: 40%;
+}
+
+header img{
+    width: 60%;
+}

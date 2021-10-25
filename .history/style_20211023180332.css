@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background:#b2b2b2;
+    display: flex;
+    justify-content:space-between;
+    justify-content: center;
+}
+
+.header-sec1{
+    width: 70%;
+    
+}
+
+.header-sec1{
+    width: 30%;
+}
+
+header img{
+    width: 50%;
+}
